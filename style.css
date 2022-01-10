@@ -1,0 +1,66 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    border: 0ch;
+}
+
+@keyframes conor{
+    0%   {background-color: rgb(72, 255, 0);}
+    25%  {background-color: rgb(0, 255, 255);}
+    50%  {background-color: rgb(0, 153, 255);}
+    75% {background-color: rgb(77, 0, 128);}
+    100%   {background-color: rgb(72, 255, 0);}
+}
+
+body {
+    animation-name: conor;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+p{
+    font-size: 3vw;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 1000;
+}
+
+
+.meg{
+    width: 80%;
+    margin: auto;
+    animation-name: conor;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    height: 100vw;
+
+}
+
+.hhh{
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+#ccc{
+    align-self: center;
+}
+
+audio{
+    width: 15vw;
+}
+
+.images{
+    max-width: 20vw;
+    max-height: 12vw;
+    margin: auto;
+}
+.dana_white{
+    display: grid;
+    width: 100%;
+    grid-gap: 3vw 3vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(15vw, auto);
+    justify-content: center;
+}
+
